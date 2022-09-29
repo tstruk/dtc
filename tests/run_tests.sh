@@ -346,6 +346,7 @@ tree1_tests () {
     run_test get_prop_offset $TREE
     run_test get_phandle $TREE
     run_test get_path $TREE
+    run_test get_next_tag_invalid_prop_len $TREE #TREE not really needed
     run_test supernode_atdepth_offset $TREE
     run_test parent_offset $TREE
     run_test node_offset_by_prop_value $TREE
